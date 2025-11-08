@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "price": 25,
+    "availability": "in stock"
+  },
+  {
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "price": 30,
+    "availability": "in stock"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "price": 20,
+    "availability": "out of stock"
+  }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registion form</title>
+</head>
+<body>
+    <form action="https://newerp.kluniversity.in">
+        <caption>Student Registration System</caption><br></br>
+        <div class="form-group">
+       <label for="FN">first Name:</label> 
+        <input type="text"  id="fn" name="fistname" pattern="[A-Z]+" title="Must be uppercase"   required><br></br>
+        </div>
+        <div class="form-group">
+        <label for="FN">last Name:</label> 
+        <input type="text"  id="ln" name="lastname" pattern="[A-z]+" required><br></br>
+        </div>
+     <div class="form-group">
+        <label for="gn"> Gender: </label>
+        <input type="radio" id="gn" name="Gender" value="Male">Male
+        <input type="radio" id="gn" name="Gender" value="Female">Female
+         <input type="radio" id="gn" name="Gender" value="others">Others<br></br>
+</div>
+<div class="form-group">
+         <label>Emali:</label>
+            <input type="email"  id="E" required><br>
+         </div>
+<div class="form-group">
+         <label> Contact:</label>
+         <input type="tel" pattern="[0-9]{10}" required><br>
+</div>
+<div class="form-group">
+         <label>Date of  Birth</label>
+         <input type="date" required><br>
+</div>
+<div class="form-group">
+         <label> Address: </label>
+        <textarea rows="10" required></textarea><br>
+</div>
+<div class="form-group">
+        <label>Languages Known: </label>
+        <input type="checkbox" value="Telugu">Telugu
+        <input type="checkbox" value="Hindi">Hindi
+        <input type="checkbox" value="English">English
+        <input type="checkbox" value="Tamil">Tamil<br>
+</div>
+<div class="form-group">
+        <label>Branch:</label>
+        <select>
+            <option value=""> --select--</option>
+            <option value="CSE"> CSE</option>
+            <option value="EEE"> EEE</option>
+            <option value="ECE"> ECE</option>
+        </select required><br>
+</div>
+<div class="form-group">
+        <label> upload file:</label>
+        <input type="file" required><br>
+</div>
+<div class="form-group">
+        <button> submit </button>
+</div>
+
+
+
+    </form>
+</body>
+</html>

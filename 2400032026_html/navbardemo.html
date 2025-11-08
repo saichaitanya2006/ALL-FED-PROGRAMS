@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar Demo</title>
+    <style>
+        *{
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .navbar{
+            display:flex;
+            background-color: red;
+            height: 60px;
+        justify-content: space-between;
+        padding: 10px 10px;
+        }
+        .navbar .logo{
+            flex: 1;
+        }
+        .navbar .logo img{
+            height: 100+%;
+              border-radius: 10px;
+        }
+        .navbar .tittel{
+            flex: 2;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .navbar .links{
+            flex: 1;
+        }
+        .navbar .links a{
+            color: white;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="klu.jpg" >
+        </div>
+        <div class="tittel">
+            Learing Managent System
+        </div>
+        <div class="links">
+            <a href="https://www.kluniversity.in/"> home</a>
+             <a href="fedf.pdf" target="_blank"> About us</a>
+              <a href="https://lms.kluniversity.in/login/index.php?testsession=76787" target="_blank">login/ sing up</a>
+        </div>
+    </nav>
+</body>
+</html>
