@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = [10, 20, 30, 40];
+        document.write(typeof number);
+
+        document.write("<h2> 1. standed or loop</h2>");
+    //     for(let i=0; i<=number.length; i++)
+    // {
+    //     document.write("Index : "+ i + "= " + numbers[i] + "<br>");
+    // }
+    // document.write("<br>");
+
+
+
+    document.write("<h2> 2. for...in loop</h2>");
+    for(let index in number){
+        document.write("Index "+ index + " = " + number[index] + "<br>" );
+    }
+    document.write("<br>");
+
+
+    document.write("<h2> 3. for.....of loop </h2>");
+    for(let value of number){
+        document.write("Value = "+ value + "<br>");
+    }
+    document.write("<br>");
+
+    document.write("<h2> 4. foeach() </h2>");
+    number.forEach(function(value,index){
+        document.write("index " + index + "=" +value + "<br>");
+    });
+    document.write("<br>");
+
+
+
+    document.write("<h2> 5. for....in with oject </h2>")
+
+
+
+
+
+    document.write("<h2> 6.for....of with string</h2>");
+    let word = "hello";
+    for(let char of word){
+        document.write(char + "<br>");
+    }
+    </script>
+</body>
+</html>
